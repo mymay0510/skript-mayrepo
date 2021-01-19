@@ -1,0 +1,28 @@
+on death of player:
+	if attacker is player:
+		set the death message to "&4사람이 죽었다."
+		stop
+	if attacker is zombie:
+		set the death message to "&2좀비&4에게 사람이 죽었다."
+		stop
+	if attacker is creeper:
+		set the death message to "&4사람이 폭발로 죽었다."
+		stop
+	if damage was caused by fall:
+		set the death message to "&4사람이 죽었다."
+		stop
+	if damage was caused by void:
+		set the death message to "&4사람이 죽었다."
+		stop
+	if damage was caused by drowning:
+		set the death message to "&4사람이 죽었다."
+		stop
+	if death message contains "died":
+		set the death message to "&4사람이 죽었다."
+		stop
+	if death message contains "burned":
+		set the death message to "&4사람이 죽었다."
+		stop
+	if death message contains "blown":
+		set the death message to "&4사람이 죽었다."
+		stop
